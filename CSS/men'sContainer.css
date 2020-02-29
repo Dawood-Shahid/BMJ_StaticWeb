@@ -1,0 +1,47 @@
+.mensContainer{
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.mensContant{
+    padding-top: 6.75%;
+    grid-column: 1/-1;
+    margin-left: 10px;
+}
+
+.aboutContant{
+    grid-column: 1/-1;
+    padding: 10px;
+}
+
+.loginContant, .signupContant, .contactUsContant{
+    grid-column: 2/5;
+    padding: 10px;
+}
+
+.watchesCard, .beltsCard, .glassesCard, .shoesCard{
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 3px;
+    margin: 10px 12px;
+}
+
+
+.watchesCard img, .beltsCard img, .glassesCard img, .shoesCard img{
+    border: 2px solid;
+    border-radius: 150px;
+    height: 300px;
+}
+
+.watchesCard:hover, .beltsCard:hover, .glassesCard:hover, .shoesCard:hover{
+    box-shadow: 4px 5px 34px -1px rgba(0,0,0,0.75);
+    position: relative;
+    margin: 15px 6px 5px 18px;
+}
+
+.watchesCard img:hover, .beltsCard img:hover, .glassesCard img:hover, .shoesCard img:hover{
+    border-radius: 15px;
+    border: 2px solid;
+    transition: 1s;
+} 
